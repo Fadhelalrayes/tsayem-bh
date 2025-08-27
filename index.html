@@ -1,64 +1,95 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>تصاميم البحرين — تصاميم مواقع وإدارة شبكات التواصل</title>
-  <meta name="description" content="تصميم مواقع ويب احترافية، تصميم محتوى شبكات التواصل، وإدارة المواقع وحسابات السوشيال بإتقان في البحرين.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تصاميم البحرين</title>
   <style>
-    body{margin:0;font-family:"Cairo",sans-serif;line-height:1.8;background:#0f172a;color:#f1f5f9}
-    header{background:#1e293b;padding:15px;text-align:center;color:#fff;font-size:20px;font-weight:bold}
-    nav{background:#0f172a;text-align:center;padding:10px}
-    nav a{color:#38bdf8;margin:0 10px;text-decoration:none;font-weight:bold}
-    .hero{padding:50px 20px;text-align:center;background:#0e7490}
-    .hero h1{margin:0 0 15px;font-size:28px}
-    .hero p{margin:0;font-size:18px}
-    section{padding:40px 20px}
-    h2{color:#fbbf24}
-    .card{background:#1e293b;padding:20px;border-radius:10px;margin:15px 0}
-    footer{background:#0f172a;padding:15px;text-align:center;color:#94a3b8;font-size:14px}
-    .contact a{color:#38bdf8;display:block;margin:5px 0;text-decoration:none}
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to left, #f0f0f0, #ffffff);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #0077b6;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: #e3f2fd;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
   </style>
 </head>
 <body>
-  <header>تصايم البحرين</header>
+
+  <header>
+    <h1>تصاميم البحرين</h1>
+    <p>نصمم ونبرمج كأننا الأفضل على وجه الأرض 🌍</p>
+  </header>
+
   <nav>
-    <a href="#services">الخدمات</a>
-    <a href="#contact">تواصل معنا</a>
+    <a href="#">الرئيسية</a>
+    <a href="#">خدماتنا</a>
+    <a href="#">معرض الأعمال</a>
+    <a href="#">اتصل بنا</a>
   </nav>
 
-  <div class="hero">
-    <h1>نُصمِّم حضورك الرقمي باحتراف</h1>
-    <p>مواقع ويب • محتوى شبكات التواصل • إدارة المواقع والحسابات</p>
-  </div>
-
-  <section id="services">
-    <h2>خدماتنا</h2>
-    <div class="card">
-      <h3>تصميم مواقع ويب</h3>
-      <p>مواقع متجاوبة، سريعة، وحديثة تناسب أعمالك.</p>
-    </div>
-    <div class="card">
-      <h3>تصميم محتوى سوشيال</h3>
-      <p>بوستات احترافية، ريلز، وقصص تعزز حضورك الرقمي.</p>
-    </div>
-    <div class="card">
-      <h3>إدارة المواقع والشبكات</h3>
-      <p>جدولة المحتوى، الردود، والتقارير الشهرية.</p>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>تواصل معنا</h2>
-    <div class="contact">
-      <a href="tel:+97333375858">📞 اتصال: +973 3337 5858</a>
-      <a href="https://wa.me/97333375858">💬 واتساب: 0097333375858</a>
-      <a href="mailto:Richadvadv@gmail.com">✉️ ايميل: Richadvadv@gmail.com</a>
+  <section>
+    <h2>خدماتنا الاحترافية</h2>
+    <div class="services">
+      <div class="card">
+        <h3>تصميم مواقع ويب</h3>
+        <p>نصمم مواقع جذابة وسريعة الاستجابة باستخدام أحدث التقنيات.</p>
+      </div>
+      <div class="card">
+        <h3>تصميم محتوى شبكات التواصل</h3>
+        <p>نصنع محتوى بصري وإبداعي يعزز حضورك الرقمي.</p>
+      </div>
+      <div class="card">
+        <h3>إدارة المواقع والسوشيال ميديا</h3>
+        <p>نعتني بموقعك وصفحاتك لتبقى دائمًا في القمة.</p>
+      </div>
     </div>
   </section>
 
   <footer>
-    © <script>document.write(new Date().getFullYear())</script> تصايم البحرين — جميع الحقوق محفوظة
+    <p>📞 للتواصل: 0097333375858 | 📧 Richadvadv@gmail.com</p>
+    <p>© 2025 جميع الحقوق محفوظة لـ تصاميم البحرين</p>
   </footer>
+
 </body>
 </html>
